@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="task_3.css">
+    <title>input</title>
+</head>
+<body>
+    <main class="group">
+        <div>
+            <h1>Вывод картинок на экран при условии, что введенное в input число находится в интервале от 1 до 10</h1>
+        </div>
+        <div class="text">
+            <div>Механизм работы приложения:</div>
+            <ol>
+                <li>Создаем функцию <em>useRequest</em>, которая будет осуществлять запрос</li>
+                <li>Создаем функцию <em>displayResult</em> для сборки карточек и вставки на страницу</li>
+                <li>Ищем элементы кнопки и блока с результатом</li>
+                <li>Вешаем обработчик <em>click</em> на кнопку, который делает запрос с помощью функции <em>useRequest</em>,
+                результат запроса выводит на страницу с помощью функции <em>displayResult</em></li>
+            </ol>
+        </div>
+        <div class="input-output">
+            <input id="input" type="text" placeholder="Введите число" />
+            <button class="btn j-btn-request">Запрашиваем данные</button>
+            <div class="result j-result">Здесь будет результат запроса</div>
+        </div>
+    </main>
+    <script src="task_3.js"></script>
+</body>
+</html>
