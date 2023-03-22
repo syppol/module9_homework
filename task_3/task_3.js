@@ -12,8 +12,6 @@
 */
 
 const input = document.querySelector("#input");
-const btn = document.querySelector(".btn");
-const output = document.querySelector(".result");
 
 // Ищем ноду для вставки результата запроса
 const resultNode = document.querySelector('.j-result');
